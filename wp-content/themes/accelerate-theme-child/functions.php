@@ -38,7 +38,7 @@ function create_custom_post_types() {
             'public' => true,
             'has_archive' => true,
             'rewrite' => array( 'slug' => 'case-studies' ),
-            'supports' => array( 'revisions' ),
+            'supports' => array( 'title', 'editor', 'revisions' ),
         )
     );
 }

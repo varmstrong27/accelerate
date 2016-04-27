@@ -55,6 +55,21 @@
 	text-transform: uppercase;
 }
 
+/* Featured Work */
+
+.featured-work h4 {
+    text-align: center;
+}
+
+li.individual-featured-work {
+    display: inline-block;
+    padding: 5px;
+}
+
+li.individual-featured-work h3 {
+    text-align: center;
+}
+
 /* Case Studies */
 
 article.case-study {
@@ -76,4 +91,23 @@ div.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border: 1px solid #dddddd;
+}
+
+/* Case Studies Archive from github */ 
+
+aside.archive-sidebar {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+div.archive-images {
+	width: 15%;
+	float: left;
+	margin-top: 40px;
+}
+
+.archive-sidebar h5, .archive-sidebar h6  {
+	font-weight: normal; 
+	color: #666;
 }
