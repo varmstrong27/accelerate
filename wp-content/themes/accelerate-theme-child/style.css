@@ -21,6 +21,11 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+#masthead nav ul {
+    float: left;
+    padding-bottom: 40px;
+}
+
 #masthead nav ul li {
     float: left;
     margin: 0 10px;
@@ -110,4 +115,30 @@ div.archive-images {
 .archive-sidebar h5, .archive-sidebar h6  {
 	font-weight: normal; 
 	color: #666;
+}
+
+/* Contact Us page */ 
+
+div#ninja_forms_field_1_div_wrap {
+    display: inline-block;
+    width: 47%;
+}
+
+div#ninja_forms_field_2_div_wrap {
+    display: inline-block;
+    float: right;
+    width: 47%;
+}
+
+div.ninja-forms-all-fields-wrap {
+    font-weight: lighter;
+    font-size: small;
+}
+
+#ninja_forms_field_4 {
+    float: right;
+}
+
+div.contact-form {
+    width: 88%;
 }
