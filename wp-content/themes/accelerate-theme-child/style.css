@@ -142,3 +142,82 @@ div.ninja-forms-all-fields-wrap {
 div.contact-form {
     width: 88%;
 }
+
+/* About page */ 
+
+div.about-hero p {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+.about-section {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.image-right { 
+    display: inline-block;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.image-left { 
+    display: inline-block;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.services-right { 
+    display: inline-block;
+    width: 70%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.services-left { 
+    display: inline-block;
+    width: 70%;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+div.contact-info {
+    align-content: center;
+    /*border-top: solid 1px #bfbfbf;*/
+}
+
+.contact-info {
+    margin: auto;
+    width: 90%;
+    text-align: center; 
+}
+
+.contact-info h2 {
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+}
+
+.contact-button {
+    display: inline;
+    float:left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* 404 page */ 
+
+div.error-page h3 {
+    text-align: center;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+    background: url("img/404.jpg");
+}
