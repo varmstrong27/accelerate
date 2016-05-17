@@ -213,11 +213,17 @@ div.contact-info {
 
 /* 404 page */ 
 
-div.error-page h3 {
+.error-image {
+    /*background: url("img/404.jpg") no-repeat scroll left center / cover;
+    height: 500px;
+    margin: 0 0 80px;
+    padding: 100px 0;*/
+}
+
+div.error-message h3 {
     text-align: center;
     font-family: "open sans";
     font-size: 24px;
     font-weight: normal;
     margin: 16px 0 80px;
-    background: url("img/404.jpg");
 }
