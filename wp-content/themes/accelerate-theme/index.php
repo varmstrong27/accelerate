@@ -18,7 +18,7 @@ get_header(); ?>
 	<!-- BLOG PAGE -->
 	<section class="blog-page">
 		<div class="site-content">
-			<div class="main-content">
+			<div class="main-content all-blog-posts">
 				
 				<?php
 			if ( have_posts() ) :
@@ -36,6 +36,7 @@ get_header(); ?>
 						<div class="entry-summary">
 							<?php the_excerpt(); ?>
 						</div>
+                        
 						<footer class="entry-footer">
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <a href=""><?php the_author(); ?></a></span>
@@ -46,13 +47,13 @@ get_header(); ?>
 					</div>
 				</article>
 			<?php endwhile; endif; ?>
-
 			</div>
 			
-			<?php get_sidebar(); ?>
+
 		</div>
 				<div class="clearfix"></div>
 
 	</section>
+<?php get_sidebar(); ?>
 	<!-- END blog page -->
 <?php get_footer();

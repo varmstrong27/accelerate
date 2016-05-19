@@ -36,7 +36,10 @@
 }
 
 .blog-post {
-	width: 50%;
+    width: 45%;
+    margin:0;
+    float: left;
+    margin-bottom: 15px;
 }
 
 .blog-post h4 {
@@ -60,6 +63,104 @@
 	text-transform: uppercase;
 }
 
+.tweet {
+    float:left;
+    display: inline-block;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.all-blog-posts {
+    display: inline;
+}
+
+/* Blog page sidebar */
+#sidebar {
+	border-left: 1px solid #bfbfbf;
+	padding: 55px 0;
+	float: right;
+	width: 31%;
+    display: inline;
+}
+
+/* sidebar */
+#sidebar {
+	padding-top: 20px;
+}
+#sidebar li {
+	list-style-type: none;
+}
+#sidebar p {
+	font: 14px/28px 'Open Sans';
+	margin-bottom: 20px;
+}
+#sidebar .widget {
+	padding: 28px 31px;
+}
+#sidebar .widget_text {
+	border-bottom: 1px solid #BFBFBF;
+}
+#sidebar .widget_text img {
+	max-width: 175px;
+	margin: auto;
+	display: block;
+	
+}
+#sidebar .widget_text a {
+	color: #3b3b3b;
+	font-weight: 700;
+	text-decoration: underline;
+}
+#sidebar .widget_search {
+	border-bottom: 1px solid #BFBFBF;
+}
+#sidebar .widget_search input[type="text"] {
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-left: 1px solid #a6a6a6;
+	border-right: none;
+	width: 200px;
+	height: 36px;
+	padding: 8px;
+	vertical-align: middle;
+}
+#sidebar .widget_search input[type="submit"] {
+	border-top: 1px solid #a6a6a6;
+	border-bottom: 1px solid #a6a6a6;
+	border-right: 1px solid #a6a6a6;
+	border-left: none;
+	width: 35px;
+	height: 36px;
+	background: url('img/white-arrow-right.png') no-repeat 13px 10px #45ac9d;
+	color: #ffffff;
+	margin-left: -5px;
+	vertical-align: middle;
+}
+#sidebar .widget_categories {
+	padding: 28px 31px 0 31px;
+}
+#sidebar .widget_categories h2,
+#sidebar .widget_archive h2,
+.widget-title {
+	font: 600 14px 'Open Sans';
+	color: #45ac9d;
+	margin-bottom: 20px;
+}
+#sidebar .widget_categories ul li,
+#sidebar .widget_archive ul li {
+	font: 600 14px 'Open Sans';
+	color: #3b3b3b;
+	margin-bottom: 15px;
+}
+#sidebar .widget_categories ul li a,
+#sidebar .widget_archive ul li a {
+	color: #3b3b3b;
+}
+.wpp-excerpt {
+  font: 600 10px 'Open Sans';  
+}
+/* end sidebar */
+
 /* Featured Work */
 
 .featured-work h4 {
@@ -74,6 +175,9 @@ li.individual-featured-work {
 li.individual-featured-work h3 {
     text-align: center;
 }
+
+/* Twitter Module on Homepage */
+
 
 /* Case Studies */
 

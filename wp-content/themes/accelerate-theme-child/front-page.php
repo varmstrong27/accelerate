@@ -63,4 +63,14 @@ get_header(); ?>
 	</div><!-- .site-content -->
 </section><!-- .recent-posts -->
 
+<div class="tweet">
+<h4>Recent Tweet</h4>
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
+    <a href="https://twitter.com/veronica27" class="read-more-link">Follow Us <span>&rsaquo;</span></a>
+</div>
+
 <?php get_footer(); ?>
